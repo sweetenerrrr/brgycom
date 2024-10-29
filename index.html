@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barangay Taytay  Nagcarlan Laguna</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#home">
+                    <img src="img/logo.png" alt="Barangay Taytay Logo">
+                </a>
+                <h1 class="taytaynag">TAYTAY NAGCARLAN LAGUNA</h1>
+            </div>
+            <ul class="main-menu">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="container">
+        <div class="section-content">
+            <div class="text-content">
+                <h2>Welcome to </h2>
+                <h1>BARANGAY TAYTAY</h1>
+                <p>Welcome to the official website of Barangay Taytay, Nagcarlan, Laguna. We are committed to providing the best services and information to our community. Explore our website to learn more about the services we offer and get to know us better.</p>
+                <button id="subscribeBtn" class="subscribe-btn">Subscribe to Newsletter</button>
+            </div>
+            <div class="map-content">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3088.876763230935!2d121.48786341577145!3d14.113707289793232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9e9d3b0d4c1%3A0x3b8b2f8f1a1b2c3d!2sTaytay%2C%20Nagcarlan%2C%20Laguna!5e0!3m2!1sen!2sph!4v1697500000000!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="container">
+        <div class="section-content">
+            <div class="image-content">
+                <img class="image-content" src="img/TAYTAY.jpg" alt="Our Services">
+            </div>
+            <div class="text-content">
+                <h2>SERVICES</h2>
+                <p>Here you can list the services provided by the barangay, such as health services, public safety, community events, etc.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container">
+        <div class="section-content">
+            <div class="text-content">
+                <h2>ABOUT US</h2>
+                <p>Provide information about the barangay, its history, mission, vision, and the team members or officials.</p>
+            </div>
+            <div class="image-content">
+                <img class="image-content" src="img/ABOUTUS.jpg" alt="About Barangay Taytay">
+            </div>
+        </div>
+    </section>
+
+    <div id="newsletterModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Subscribe to our Newsletter</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Barangay Taytay Nagcarlan Laguna. All rights reserved.</p>
+    </footer>
+
+    <script src="jscript.js"></script>
+    
+</body>
+</html>
